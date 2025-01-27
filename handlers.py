@@ -4,7 +4,7 @@ import requests
 import json
 from db import get_default_balance, decrement_balance, calculate_price_per_generation, get_on_markup_percentage, notify_admin
 
-PROXY_API_KEY = 'YOUR_PROXY_API_KEY'
+PROXY_API_KEY = 'sk-QePfufzvjQc09eAhBFerdJjwtH1iPhoz'
 
 def handle_start(bot, message, notify_admin_func):
     user_id = message.from_user.id
