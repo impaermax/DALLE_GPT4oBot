@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 from db import get_on_markup_percentage, update_settings, generate_report
 
-YOUR_ADMIN_TELEGRAM_ID = 1200.....
+YOUR_ADMIN_TELEGRAM_ID = 1200223081
 def handle_admin_panel(bot, message, update_settings_func, generate_report_func):
     user_id = message.from_user.id
     if user_id == YOUR_ADMIN_TELEGRAM_ID:  # Замените на реальный ID администратора
