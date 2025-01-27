@@ -7,7 +7,7 @@ from handlers import handle_start, handle_generate, handle_balance, handle_buy, 
 from admin_panel import handle_admin_panel
 
 # Инициализация бота
-API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
+API_TOKEN = '7937346503:AAGj7dW3lOMbfTv4XO0W-Jr_rPDB9b8sA_A'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Подключение к базе данных
